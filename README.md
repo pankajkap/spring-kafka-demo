@@ -1,5 +1,8 @@
 ## Spring Kafka Demo
-Spring Kafka Demo with vanilla Producer and Consumer
+Spring Kafka Demo demonstrating below features:
+* Kafka Producer with Key and Value as String using Spring Boot
+* Kafka Consumer with Key and Value as String using Spring Boot
+* Test coverage using Embedded Kafka
 
 # Getting Started
 

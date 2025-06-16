@@ -1,7 +1,8 @@
 spring:
   kafka:
-    bootstrap-servers: "localhost:9092"
+    bootstrap-servers: "localhost:9099"
     consumer:
+      auto-offset-reset: earliest
       group-id: "demo-consumer-group"
 
 application:
@@ -9,4 +10,4 @@ application:
     topic:
       name: quickstart-events
     scheduled-producer:
-      enabled: true
+      enabled: false
